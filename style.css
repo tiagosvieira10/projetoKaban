@@ -124,5 +124,28 @@ input.busque{
     border-radius: 8px;
 }
 
+.andamento {
+    display: flex; 
+    justify-content: space-between;
 
+    margin: 8rem;
+
+    text-transform: uppercase;
+    color: #7C3AED
+}
+
+.andamento .fazer,
+.andamento .fazendo,
+.andamento .feito {
+  flex: 1; /* Distribui o espaço disponível igualmente entre os itens */
+  padding: 10px;
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.andamento .fazendo {
+    border-left: 2px solid #E3E3E3;
+}
+.andamento .feito {
+    border-left: 2px solid #E3E3E3;
+}
 
